@@ -70,14 +70,14 @@ html {
 .wrapper {
     margin: 0 auto;
     max-width: 320px;
-    padding: 0px 15px;
+    padding: 0 1.5rem;
 }
 header {
     display: flex;
     align-items:center;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 h1, h2, h3, .button_bold, .celestia_header, .bold{
@@ -118,18 +118,18 @@ button:active, a:active {
 }
 .left {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
     align-items: center;
 }
 
 .right {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
     align-items: center;
 }
 
 .celestia_header {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 
@@ -171,7 +171,7 @@ h1 {
 }
 
 .first {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 
@@ -267,30 +267,30 @@ h2 {
 }
 
 .margin-bottom_80 {
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
 }
 
 .margin-bottom_30 {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .margin-bottom_20 {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .margin-bottom_10 {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .events_prices_icons {
     display: flex;
-    gap: 40px;
+    gap: 4rem;
 }
 
 .prices {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0.5rem;
     font-size: 1.4rem;
 }
 
@@ -322,7 +322,7 @@ h2 {
     border-top-right-radius: 53.37px;
     border-bottom-right-radius: 30.9px;
     border-bottom-left-radius: 30.9px;
-    padding: 20px;
+    padding: 2rem;
     display: flex;
     height: 104px;
     justify-content: space-between;
@@ -350,8 +350,8 @@ h3 {
 
 .two_arrows {
     display: flex;
-    margin: 0 110px;
-    gap: 10px;
+    margin: 0 11rem;
+    gap: 1rem;
 }
 
 .tablet_reviews {
@@ -362,7 +362,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 20px;
+    padding: 1.6rem 2rem;
 }
 .questions_container > h3 {
     max-width: 210px;
@@ -370,7 +370,7 @@ h3 {
 
 .form_container {
     background-color: var(--background-black);
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     border: solid var(--white);
     border-radius: 40px;
     color: var(--white)
@@ -411,7 +411,7 @@ h3 {
 .psevdo_footer {
     display: flex;
     justify-content: space-between;
-    margin: 0 63px;
+    margin: 0 6.3rem;
     align-items: center;
 }
 
@@ -420,7 +420,7 @@ h3 {
     gap: 1rem;
 }
 .margin-bottom_120 {
-    margin-bottom: 120px;
+    margin-bottom: 12rem;
 }
 .email {
     padding: 1rem 0;
@@ -434,7 +434,7 @@ h3 {
 }
 
 .big_h3 {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .border-radius_30 {
@@ -482,13 +482,13 @@ details:not([open]) h3 {
 }
 
 .button_header {
-    padding: 11px 30px;
+    padding: 1.1rem 3rem;
 
 }
 
 .section_1 {
     display: grid;
-    gap: 10px;
+    gap: 1rem;
     grid-template-columns: auto;
     grid-template-rows: repeat(4, min-content);
     grid-template-areas: "celestia_container" "celestia_sales" "celestia_pairs" "list_quantity"
@@ -548,7 +548,7 @@ details:not([open]) h3 {
     .wrapper {
         margin: 0 auto;
         max-width: 1024px;
-        padding: 0px 142px;
+        padding: 0 14.2rem;
     }
 
     .tablet_celestia_container {
@@ -640,18 +640,18 @@ details:not([open]) h3 {
         border-radius: 55px;
     }
     .tablet_events_right_text {
-        margin-left: 80px;
-        margin-top: 40px;
+        margin-left: 8rem;
+        margin-top: 4rem;
     }
     .event_buttons{
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
     }
     .event_tablet_top_text{
-        margin-bottom: 25px;
+        margin-bottom: 2.5rem;
     }
     .event_tablet_main_text {
         width: 655px;
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
     }
     .event_tablet_bottom {
         display: flex;
@@ -669,7 +669,7 @@ details:not([open]) h3 {
     }
 
     .margin-top_30 {
-        margin-top: 30px;
+        margin-top: 3rem;
     }
     .tablet_img2 {
         width: 240px;
@@ -715,7 +715,7 @@ details:not([open]) h3 {
     .title_tablet_sales {
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 3rem;
         position:relative;
     }
     .crazy_star {
@@ -761,7 +761,7 @@ details:not([open]) h3 {
     }
 
     .form_container {
-        padding: 20px 50px 20px 30px;
+        padding: 2rem 5rem 2rem 3rem;
     }
 
     .form_exclusive{
@@ -772,11 +772,11 @@ details:not([open]) h3 {
     .button_big {
         padding: 2rem 0;
         border-radius: 55px;
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
     }
 
     .margin-bottom_40_tablet {
-        margin-bottom: 40px;
+        margin-bottom: 4rem;
     }
 
     .group_under_card {
@@ -787,12 +787,12 @@ details:not([open]) h3 {
 
     .social_media_list_tablet {
         display: flex;
-        gap: 10px;
+        gap: 1rem;
     }
 
     .address {
         display: flex;
-        gap: 10px;
+        gap: 1rem;
         align-items: center;;
     }
     .tablet_subscribe_container {
@@ -801,7 +801,7 @@ details:not([open]) h3 {
     }
     .email {
         border-radius: 100px;
-        padding: 11px 160px;
+        padding: 1.1rem 16rem;
         border-width: 1px;
         width: 451px;
         height: 38px;
@@ -810,7 +810,7 @@ details:not([open]) h3 {
         display: flex;
         background-color: var(--blue);
         color: var(--white);
-        padding: 13px 45px;
+        padding: 1.3rem 4.5rem;
         border-radius: 100px;
         border: none;
         width: 199px;
@@ -912,7 +912,7 @@ details:not([open]) h3 {
     .wrapper {
         margin: 0 auto;
         max-width: 1920px;
-        padding: 0px 290px;
+        padding: 0 29rem;
     }
     .tablet {
         display: none;
@@ -979,7 +979,7 @@ details:not([open]) h3 {
         justify-content: space-between;
     }
     .card > svg {
-        margin-top: 100px;
+        margin-top: 10rem;
     }
 
     .max-width_section1 > p {
@@ -1043,7 +1043,7 @@ details:not([open]) h3 {
         width: 22rem;
     }
     .list_quantity-list {
-        gap: 10px;
+        gap: 1rem;
         margin: 0;
         padding: 0;
     }
@@ -1075,7 +1075,7 @@ details:not([open]) h3 {
 
     .events_desktop_container_first {
         display: flex;
-        gap: 42px;
+        gap: 4.2rem;
     }
 
     .event_title_main {
@@ -1083,7 +1083,7 @@ details:not([open]) h3 {
     }
 
     .event_title {
-        margin-top: 14.5px;
+        margin-top: 1.4rem;
     }
 
     .events_p {
@@ -1091,11 +1091,11 @@ details:not([open]) h3 {
         font-size: 1.6rem;
         line-height: 1.4;
         font-weight: 500;
-        margin-top: 14.5px;
+        margin-top: 1.4rem;
     }
 
     .events_desktop_container {
-        gap: 105px;
+        gap: 10.5rem;
     }
 
     .events_desktop_container_second {
@@ -1108,7 +1108,7 @@ details:not([open]) h3 {
         line-height: 1.2;
         justify-content: center;
         display: flex;
-        gap: 10px;
+        gap: 1rem;
     }
 
     .events_desktop_container_second > ul {
@@ -1118,11 +1118,11 @@ details:not([open]) h3 {
 
     .events_buttons {
         display: flex;
-        gap: 10px;
+        gap: 1rem;
     }
 
     .show_more { 
-        margin-bottom: 150px;
+        margin-bottom: 15rem;
     }
     .img2 {
         object-fit: cover;
@@ -1237,7 +1237,7 @@ details:not([open]) h3 {
 
     .ticket_container {
         flex-direction: row-reverse;
-        gap: 100px;
+        gap: 10rem;
     }
     .form_container {
         width: 100%;
